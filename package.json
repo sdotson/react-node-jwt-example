@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "setup": "cd server && npm install && cd ../public && npm install",
-    "start": "node server/index"
+    "startServer": "node server/index",
+    "startClient": "node ./public/node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "repository": {
     "type": "git",
