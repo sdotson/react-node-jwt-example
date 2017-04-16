@@ -1,0 +1,20 @@
+{
+  "name": "react-node-jwt-example",
+  "version": "1.0.0",
+  "description": "This is an example of React Redux JWT authentication with a Node server. This was created with the help of Stephen Grider's Advanced React Redux course on Udemy: https://www.udemy.com/react-redux-tutorial",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cd server && npm install && cd ../public && npm install",
+    "start": "node server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdotson/react-node-jwt-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdotson/react-node-jwt-example/issues"
+  },
+  "homepage": "https://github.com/sdotson/react-node-jwt-example#readme"
+}
