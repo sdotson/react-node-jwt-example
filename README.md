@@ -9,5 +9,5 @@ It was challenging for me to find a simple example of how to implement authentic
 1. `npm setup`
 2. Start mongo on you machine: `mongod`
 3. Start dev server: `npm run startServer`
-4. Start client: `npm run startClient`
-4. Visit http://localhost:8080
+4. Start the client within `public` directory by typing `webpack-dev-server`
+5. Visit http://localhost:8080
